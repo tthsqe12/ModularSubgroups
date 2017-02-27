@@ -1,0 +1,5 @@
+cd C:\Users\pc\Dropbox\code
+g++ test.cpp -std=c++11 -Os -static-libgcc -o test.exe
+g++ test.cpp -std=c++11 -Os -DNDEBUG -static-libgcc -o test.o
+"C:\Users\lap\Downloads\objconv\objconv.exe" -fyasm "C:\Users\lap\Dropbox\code\test.o" "C:\Users\lap\Dropbox\code\test.asm"
+
